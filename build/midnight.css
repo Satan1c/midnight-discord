@@ -518,6 +518,15 @@ body {
             var(--background-image-url) 5x,
             var(--background-image-url) 6x
         );
+        background-image: -webkit-image-set(
+            var(--background-image-url) 0x,
+            var(--background-image-url) 1x,
+            var(--background-image-url) 2x,
+            var(--background-image-url) 3x,
+            var(--background-image-url) 4x,
+            var(--background-image-url) 5x,
+            var(--background-image-url) 6x
+        );
         background-size: var(--background-image-size);
         background-repeat: var(--background-image-repeat);
         background-position: center;
