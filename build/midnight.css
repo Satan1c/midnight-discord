@@ -520,7 +520,6 @@ body {
         );
         background-size: var(--background-image-size);
         background-repeat: var(--background-image-repeat);
-        border-image-repeat: var(--background-image-repeat);
         background-position: center;
         transform: translateZ(0);
     }
