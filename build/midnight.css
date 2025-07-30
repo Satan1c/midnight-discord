@@ -509,10 +509,19 @@ body {
 
 @container body style(--background-image: on) {
     .visual-refresh #app-mount .bg__960e4 {
-        background-image: image-set(var(--background-image-url) 0x, var(--background-image-url) 0.5x, var(--background-image-url) 1x, var(--background-image-url) 2x, var(--background-image-url) 3x, var(--background-image-url) 4x);
+        background-image: image-set(
+            var(--background-image-url) 0x,
+            var(--background-image-url) 1x,
+            var(--background-image-url) 2x,
+            var(--background-image-url) 3x,
+            var(--background-image-url) 4x,
+            var(--background-image-url) 5x,
+            var(--background-image-url) 6x
+        );
         background-size: var(--background-image-size);
         background-repeat: var(--background-image-repeat);
         background-position: center;
+        transform: translateZ(0);
     }
 }
 
@@ -1406,11 +1415,20 @@ body {
 
 @container body style(--custom-dms-background: image) {
     .wrapper__6e9f8[data-list-item-id='guildsnav___home'] > .childWrapper__6e9f8 {
-        background-image: var(--dms-background-image-url);
+        background-image: image-set(
+            var(--dms-background-image-url) 0x,
+            var(--dms-background-image-url) 1x,
+            var(--dms-background-image-url) 2x,
+            var(--dms-background-image-url) 3x,
+            var(--dms-background-image-url) 4x,
+            var(--dms-background-image-url) 5x,
+            var(--dms-background-image-url) 6x
+        );
         background-color: transparent !important;
         background-size: var(--dms-background-image-size);
         background-position: center;
         background-repeat: no-repeat;
+        transform: translateZ(0);
     }
 }
 
