@@ -498,6 +498,7 @@ body {
 body {
     --background-image-url: url('');
     --background-image-size: cover;
+    --background-image-repeat: repeat;
 }
 
 @property --background-image {
@@ -510,6 +511,7 @@ body {
     .visual-refresh #app-mount .bg__960e4 {
         background: var(--background-image-url);
         background-size: var(--background-image-size);
+        background-repeat: var(--background-image-repeat);
         background-position: center;
     }
 }
