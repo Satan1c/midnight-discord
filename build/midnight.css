@@ -509,7 +509,7 @@ body {
 
 @container body style(--background-image: on) {
     .visual-refresh #app-mount .bg__960e4 {
-        background-image: image-set(var(--background-image-url) 1x, var(--background-image-url) 2x);
+        background-image: image-set(var(--background-image-url) 4x);
         background-size: var(--background-image-size);
         background-repeat: var(--background-image-repeat);
         background-position: center;
