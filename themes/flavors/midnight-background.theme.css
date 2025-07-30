@@ -14,10 +14,10 @@
 @import url('https://raw.githubusercontent.com/Satan1c/midnight-discord/refs/heads/master/build/midnight.css');
 
 body {
-	--bg-image-url2: url('https://static.zerochan.net/Castorice.full.4394106.jpg');/**/
-	--bg-image-url1: url('https://static.zerochan.net/Genshin.Impact.full.4111992.jpg');/**/
-	--bg-image-url: url('https://static.zerochan.net/Columbina.full.4548208.jpg');/**/
-	--bg-image-url3: url('https://static.zerochan.net/Furina.de.Fontaine.full.4547922.jpg');/**/
+	/*--bg-image-url2: url('https://static.zerochan.net/Castorice.full.4394106.jpg');/**/
+	/*--bg-image-url1: url('https://static.zerochan.net/Genshin.Impact.full.4111992.jpg');/**/
+	--bg-image-url: url('https://images.wallpapersden.com/image/download/starry-landscape-4k-cool-blue-moon_bW5tbG6UmZqaraWkpJRobWllrWdma2U.jpg');/**/
+	/*--bg-image-url3: url('https://static.zerochan.net/Furina.de.Fontaine.full.4547922.jpg');/**/
 
 	/* font options */
 	--font: 'figtree'; /* change to '' for default discord font */
