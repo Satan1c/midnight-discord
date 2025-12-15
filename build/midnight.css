@@ -240,7 +240,7 @@ body {
         margin-left: var(--gap);
         overflow: hidden;
         height: auto;
-        min-width: 340px;
+        /*min-width: 340px;*/
         background-position: center calc(-1 * var(--border-thickness));
         background-size: 100% calc(100% + 2 * var(--border-thickness));
     }
