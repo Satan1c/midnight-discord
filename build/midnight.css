@@ -1854,7 +1854,7 @@ body {
             left: unset;
             width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
         }
-        .panels__5e434 /* server list */ {
+        .guilds__5e434 /* server list */ {
             margin-bottom: 0;
         }
     }
