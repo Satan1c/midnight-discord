@@ -515,7 +515,7 @@ body {
 }
 
 @container body style(--background-image: on) {
-    .visual-refresh #app-mount .bg__960e4 {
+    .visual-refresh #app-mount ._960e4207cea8323e-bg {
         background-image: image-set(
             var(--background-image-url) 0x,
             var(--background-image-url) 1x,
@@ -1527,7 +1527,7 @@ body {
 }
 
 @container body style(--custom-dms-background: image) {
-    .wrapper__6e9f8[data-list-item-id='guildsnav___home'] > .childWrapper__6e9f8 {
+    ._6e9f8dce4cc18de3-wrapper[data-list-item-id='guildsnav___home'] > ._6e9f8dce4cc18de3-childWrapper {
         background-image: image-set(
             var(--dms-background-image-url) 0x,
             var(--dms-background-image-url) 1x,
