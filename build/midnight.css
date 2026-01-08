@@ -527,6 +527,8 @@ body {
 /* background-image.css */
 body {
     --background-image-url: url('');
+    --background-image-size: cover;
+    --background-image-repeat: repeat;
 }
 
 @property --background-image {
